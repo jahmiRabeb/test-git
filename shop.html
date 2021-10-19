@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>cosmetique bio </title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="shop.css" />
+      
+        <script src="https://kit.fontawesome.com/ee43536100.js"  crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.JE1NW_tv5oN77RqdCUPA8AHaFi&pid=Api&P=0&w=214&h=161" alt="bio">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="shop.html">HOME</a></li>
+                    <li><a href="shop.html">STORE</a></li>
+                    <li><a href="shop.htmls">ABOUT</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">Nos produits </h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">la gamme officinea bio </span>
+                    <img class="shop-item-image" src="https://tse4.mm.bing.net/th?id=OIP.PsjZ6YY99eVgDdWuJl-7GQHaGb&pid=Api&P=0&w=201&h=176">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$ 120</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Ajouter au panier</button>
+                    </div>
+                    <div class="heart">
+                        <i onclick="toggle()" id="btn" class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">huile d'argan bio </span>
+                    <img class="shop-item-image" src="https://tse3.mm.bing.net/th?id=OIP.19bFK_RCC2Nnn8iIQe5iMQHaFE&pid=Api&P=0&w=256&h=177">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$ 60</span>
+                        <button class="btn btn-primary shop-item-button"type="button">Ajouter au panier </button>
+                    </div>
+                    <div class="heart">
+                        <i onclick="toggle1()" id="btn1" class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">soin anti-taches</span>
+                    <img class="shop-item-image" src="https://tse4.mm.bing.net/th?id=OIP.VMJ_x8ayipCNVV270Na0OwHaE7&pid=Api&P=0&w=264&h=176">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$ 90</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Ajouter au panier </button>
+                    </div>
+                    <div class="heart">
+                        <i onclick="toggle2()" id="btn2" class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">creme concombre</span>
+                    <img class="shop-item-image" src="https://tse2.mm.bing.net/th?id=OIP.rynXuT72xl8JE7hMew1xygHaHa&pid=Api&P=0&w=300&h=300">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$ 20</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Ajouter au panier</button>
+                    </div>
+                    <div class="heart">
+                        <i onclick="toggle3()" id="btn3" class="far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">MERCH</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">soin du jour bio </span>
+                    <img class="shop-item-image" src="https://tse4.mm.bing.net/th?id=OIP.y0HqlAsumuNa2_hE2XynXAEsDI&pid=Api&P=0&w=273&h=183">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$ 25</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Ajouter au panier</button>
+                    </div>
+                    <div class="heart">
+                        <i onclick="toggle4()" id="btn4" class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">serum anti-rides bio </span>
+                    <img class="shop-item-image" src="https://tse4.mm.bing.net/th?id=OIP.rw9sC6qWpBxi7obqp1XJdQHaFj&pid=Api&P=0&w=236&h=178">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$ 66</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Ajouter au panier</button>
+                    </div>
+                    <div class="heart">
+                        <i onclick="toggle5()" id="btn5" class="far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">Article</span>
+                <span class="cart-price cart-header cart-column">Prix</span>
+                <span class="cart-quantity cart-header cart-column">Quantité</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$ 0.0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">Achat</button>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">cosmetique bio  SHOP</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        
+            
+                    
+            </div>
+        </footer>
+        <script src="shop.js" async></script>
+    </body>
+</html>
